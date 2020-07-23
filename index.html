@@ -272,13 +272,13 @@
 			<div class="border-top border-white w-100 mx-auto my-3"></div>
 			<div class="row">
 				<div class="col-md-6">
-				<form><br>
-					<input type="Text" name="text"	required="" placeholder="Your Name" class="form-control"><br>
-					<input type="Email" name="Email" required="" placeholder="Your Email" class="form-control"><br>
+				<form id="contact-form" method="POST" action="contact-form-handler.php"><br>
+					<input type="Text" name="name"	required="" placeholder="Your Name" class="form-control"><br>
+					<input type="Email" name="email" required="" placeholder="Your Email" class="form-control"><br>
 
-					<textarea class="form-control" rows="6" placeholder="Message" required=""></textarea><br>
+					<textarea name="message" class="form-control" rows="6" placeholder="Message" required=""></textarea><br>
 					<center>
-					<button class="btn btn-info">Submit</button>
+					<input type="submit" class="form-control submit" value="Send">
 				</center><br>	
 				</form>
 

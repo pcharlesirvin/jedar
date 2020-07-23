@@ -147,15 +147,17 @@ ol.social-footer li {
   font-size: 17px;
 }
 
-.btn-info {
+.submit {
   width: 50%;
   letter-spacing: 2px;
   background: transparent;
   transition: all 0.5s ease-in-out;
+  color: #fff;
 }
 
-.btn-info:hover {
+.submit:hover {
   transform: scale(1.05);
+  background-color: #396AFC;
 }
 
 /*============= SOCKET =============*/
